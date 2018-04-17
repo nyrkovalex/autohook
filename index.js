@@ -19,8 +19,7 @@ if (!fs.existsSync(gitHooksRoot)) {
 
 const hookPath = path.join(gitHooksRoot, gitHookName);
 const hookTemplate =
-`
-#! /bin/sh
+`#!/bin/sh
 
 exec 1>&2
 npm run ${npmScriptName}
