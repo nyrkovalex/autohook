@@ -1,6 +1,6 @@
 {
   "name": "autohook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically generatable git hooks",
   "main": "index.js",
   "bin": "index.js",
